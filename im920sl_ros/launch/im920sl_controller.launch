@@ -1,0 +1,11 @@
+<launch>
+    <arg name="im920sl_serialport" default="/dev/ttyUSB1" />
+    <arg name="im920sl_baudrate" default="19200" />
+
+    <group ns="joy">
+        <node name="joy_node" pkg="im920sl_controller" type="im920sl_joy_controller.py">
+            <param name="serial_port" value="$(arg im920sl_serialport)"/>
+            <param name="baud_rate" value="$(arg im920sl_baudrate)"/>
+        </node>
+    </group>
+</launch>
