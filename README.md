@@ -1,11 +1,11 @@
-# PS4 to IM920SL Controller
+# PS4 to IM920SL Controller for ROS
 
 This project allows you to use a PS4 controller to send data via an IM920SL module and integrate it with ROS (Robot Operating System).
 
 ## Prerequisites
 
 - ROS (Robot Operating System)
-- Python 3.x
+- Python 3.9 (This version I checked)
 - Pygame library
 - Pyserial library
 - IM920SL module
@@ -20,7 +20,7 @@ This project allows you to use a PS4 controller to send data via an IM920SL modu
    pip install pygame pyserial
    ```
 3. Connect your IM920SL module to your device.
-4. Place the `im920sl_controller` package in your ROS workspace.
+4. Place the `im920sl_ros` package in your ROS workspace.
 5. Build your ROS workspace:
    ```
    cd ~/your_ros_workspace
