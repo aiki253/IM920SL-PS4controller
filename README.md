@@ -9,6 +9,7 @@ This project allows you to use a PS4 controller to send data via an IM920SL modu
 - Pygame library
 - Pyserial library
 - IM920SL module
+  - you can buy here (https://www.interplan.co.jp/solution/wireless/im920sl/)
 - PS4 controller (or any Pygame-compatible controller)
 
 ## Setup
@@ -59,6 +60,10 @@ This project allows you to use a PS4 controller to send data via an IM920SL modu
 
 - The default serial port is set to `/dev/ttyUSB1`. You can change this in the launch file or by passing the `im920sl_serialport` argument.
 - The default baud rate is set to 19200. You can change this in the launch file or by passing the `im920sl_baudrate` argument.
+
+## Caution!
+- We are not affiliated with interplan in any way.
+- This is for personal use only and no responsibility is assumed.
 
 ## Notes
 
